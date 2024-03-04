@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма ввода данных</title>
+    <link rel="stylesheet" type="text/css" href="../css/inputShopStyle.css">
+</head>
+<body>
+    <h1 style="color: green; text-align: center;">Введите данные по новому товару</h1>
+    <form method="post" action="postuser">
+        <div class="form-field">
+            <label for="name">Название:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-field">
+            <label for="description">Описание:</label>
+            <input type="text" id="description" name="description">
+        </div>
+        <div class="form-field">
+            <label for="category">Категория:</label>
+            <select id="category" name="category">
+                <option value="1">Карандаши</option>
+                <option value="2">Ручки</option>
+                <option value="3">Тетради</option>
+            </select>
+        </div>
+        <div class="form-field">
+            <label for="price">Цена:</label>
+            <input type="text" id="price" name="price">
+        </div>
+        <div class="form-button">
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+</body>
+</html>

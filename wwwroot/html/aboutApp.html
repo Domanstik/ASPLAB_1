@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>О приложении</title>
+    <style>
+        h1 {
+            color: green;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            text-align: left;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .box {
+            background-color: white;
+            color: green;
+            padding: 10px;
+            border: 1px solid green;
+            width: 30%;
+        }
+        .text {
+            width: 65%;
+        }
+    </style>
+</head>
+<body>
+    <h1>О приложении</h1>
+    <p>Для использования нашего приложения, необходимо зарегистрироваться и войти в аккаунт. Выберите нужный раздел и начните использовать приложение.</p>
+    <div class="container">
+        <div class="box">
+            <h2>О сайте</h2>
+        </div>
+        <div class="text">
+            <p>Страница “О моем магазине” с картинкой, названием и небольшим текстом. Стили заданы в блоке style для всего документа.</p>
+            <p>Путь: <a href="aboutShop.html">aboutShop</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2>Список товаров</h2>
+        </div>
+        <div class="text">
+            <p>Страница “Список товаров” с таблицей, отображающей список товаров. Для вставки HTML-кода используйте WriteAsync().</p>
+            <p>Путь: <a href="tovarShop.html">tovarShop</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2>Форма ввода</h2>
+        </div>
+        <div class="text">
+            <p>Страница “Форма для ввода данных” для создания нового товара. Ввод названия, описания и цены. Стилизация подключается через внешний файл.</p>
+            <p>Путь: <a href="inputShop.html">inputShop</a></p>
+        </div>
+    </div>
+    <p style="position: fixed; bottom: 0; right: 0; padding: 10px;">
+        <a href="aboutShop.html">Назад</a>
+    </p>
+</body>
+</html>
